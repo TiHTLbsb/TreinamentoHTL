@@ -1,0 +1,43 @@
+.loginTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.loginPage {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+  box-shadow: 2px 2px 2px 2px rgb(199, 198, 198);
+  height: 75vh;
+  padding-bottom: 1%;
+}
+
+.bgHTLLogo {
+  background-color: #00008b;
+  border-radius: 10px;
+  width: 50%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+.HTLLogoLogin {
+  width: 80%;
+  margin: 10%;
+}
+
+.opcoesLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 5%;
+}

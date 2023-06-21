@@ -1,0 +1,9 @@
+.sideBar {
+  left: 0;
+  position: absolute;
+  background-color: white;
+  width: 20vw;
+  height: 80%;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 3%;
+}

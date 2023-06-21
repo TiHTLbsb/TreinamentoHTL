@@ -1,0 +1,23 @@
+.modulo6Page {
+  background-color: rgb(228, 228, 228);
+  margin-left: 20vw;
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+}
+
+.modulo6Content {
+  background-color: white;
+  width: 80%;
+  height: 85%;
+  margin-top: 2%;
+  box-shadow: 2px 2px 2px 2px gray;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 3%;
+}
+
+.modulo6Title {
+  font-weight: 800;
+  font-size: 2.5em;
+  margin-bottom: 5%;
+}

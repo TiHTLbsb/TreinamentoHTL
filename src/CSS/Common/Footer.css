@@ -1,0 +1,27 @@
+footer {
+  background-color: #00008b;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: small;
+  font-weight: 500;
+  height: 7%;
+  justify-content: center;
+  left: 0;
+  margin-top: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
+
+#htl {
+  margin: 0 10px;
+}
+
+#direitos {
+  margin: 0 10px;
+}
+
