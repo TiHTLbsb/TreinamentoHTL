@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "../Componentes/Header";
 import Footer from "../Componentes/Footer";
 import HTLLogo from "../Imagens/logoHtlDigital.png";
 import '../CSS/Login/Login.css';
