@@ -1,9 +1,15 @@
 .sideBar {
   left: 0;
-  position: absolute;
+  position: fixed;
+  z-index: 0;
   background-color: white;
   width: 20%;
-  height: 80%;
+  height: auto;
   font-family: 'Roboto Condensed', sans-serif;
   padding-top: 3%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  border-top: 2px solid gray;
+  margin-top: 5.3%;
 }
