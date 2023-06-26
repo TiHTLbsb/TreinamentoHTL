@@ -3,6 +3,9 @@ import Header from '../Componentes/Header';
 import Footer from '../Componentes/Footer';
 import SideBar from '../Componentes/SideBar';
 import '../CSS/Modulos/Modulo2.css';
+import pagina1 from '../Imagens/Modulo 2/Crédito consignado-1_page-0001.jpg';
+import pagina2 from '../Imagens/Modulo 2/Crédito consignado-2_page-0001.jpg';
+import pagina3 from '../Imagens/Modulo 2/Crédito consignado-3_page-0001.jpg';
 
 function Modulo2 () {
   return (
@@ -12,6 +15,9 @@ function Modulo2 () {
       <section className="modulo2Page">
         <section className="modulo2Content">
           <h1 className="modulo2Title">Módulo 2</h1>
+          <img src={pagina1} alt='pagina 1' className="paginaMod2"/>
+          <img src={pagina2} alt='pagina 2' className="paginaMod2"/>
+          <img src={pagina3} alt='pagina 3' className="paginaMod2"/>
         </section>
       </section>
       <Footer />
