@@ -3,6 +3,7 @@ import "../CSS/Common/SideBar.css";
 import SideBarButton from "../CSS/Common/SideBarButton";
 import BookIcon from "@mui/icons-material/Book";
 import { useNavigate } from "react-router-dom";
+import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
 
 function SideBar() {
   const navigate = useNavigate();
@@ -31,6 +32,10 @@ function SideBar() {
     navigate('/modulo6');
   }
 
+  const goToProva = () => {
+    navigate('/prova');
+  }
+
   return (
     <aside className="sideBar">
       <SideBarButton aria-label="Modulo 1" onClick={ goToModulo1 }>
@@ -44,6 +49,10 @@ function SideBar() {
       <SideBarButton aria-label="Modulo 3" onClick={ goToModulo3 }>
         <BookIcon sx={{ color: "#00008b" }} />
         <p>Módulo 3</p>
+      </SideBarButton>
+      <SideBarButton aria-label="Prova" onClick={ goToProva }>
+        <DocumentScannerIcon sx={{ color: "#00008b" }} />
+        <p>Prova</p>
       </SideBarButton>
       <SideBarButton aria-label="Modulo 4" onClick={ goToModulo4 }>
         <BookIcon sx={{ color: "#00008b" }} />

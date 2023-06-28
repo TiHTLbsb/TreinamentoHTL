@@ -9,6 +9,7 @@ import Modulo4 from './Paginas/Modulo4';
 import Modulo5 from './Paginas/MOdulo5';
 import Modulo6 from './Paginas/Modulo6';
 import Login from './Paginas/Login';
+import Prova from './Paginas/Prova';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/modulo4' element={<Modulo4 />} />
           <Route exact path='/modulo5' element={<Modulo5 />} />
           <Route exact path='/modulo6' element={<Modulo6 />} />
+          <Route exact path='/prova' element={<Prova />} />
         </Routes>
       </BrowserRouter>
     </div>
