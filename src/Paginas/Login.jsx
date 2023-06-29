@@ -28,7 +28,7 @@ function Login() {
   };
 
   const logar = (usuario, senha) => {
-    if (usuario === "treinamentohtl@gmail.com" && senha === "htl12345") {
+    if (usuario === "treinamentohtl" && senha === "htl12345") {
       navigate('/home');
     }
     return null;
