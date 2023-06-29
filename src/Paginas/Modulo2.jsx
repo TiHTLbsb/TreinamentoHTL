@@ -17,7 +17,7 @@ function Modulo2 () {
           <h1 className="modulo2Title">Módulo 2</h1>
           <iframe
             title="Video Módulo 2"
-            src="https://www.youtube.com/embed/d2vENdmRRPU&feature=youtu.be"
+            src="https://www.youtube.com/embed/d2vENdmRRPU"
             className="videoMod2"
             frameborder="0"
             allowfullscreen
