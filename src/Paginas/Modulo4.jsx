@@ -1,10 +1,10 @@
 import React from "react";
-import Header from '../Componentes/Header';
-import Footer from '../Componentes/Footer';
-import SideBar from '../Componentes/SideBar';
-import '../CSS/Modulos/Modulo4.css';
+import Header from "../Componentes/Header";
+import Footer from "../Componentes/Footer";
+import SideBar from "../Componentes/SideBar";
+import "../CSS/Modulos/Modulo4.css";
 
-function Modulo4 () {
+function Modulo4() {
   return (
     <main>
       <Header />
@@ -19,11 +19,18 @@ function Modulo4 () {
             frameborder="0"
             allowfullscreen
           ></iframe>
+          <iframe
+            title="Video Módulo 4"
+            src="https://www.youtube.com/embed/PfdzBOZurRg"
+            className="videoMod4"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </section>
       </section>
       <Footer />
     </main>
-  )
+  );
 }
 
 export default Modulo4;
