@@ -15,6 +15,13 @@ function Modulo2 () {
       <section className="modulo2Page">
         <section className="modulo2Content">
           <h1 className="modulo2Title">Módulo 2</h1>
+          <iframe
+            title="Video Módulo 2"
+            src="https://www.youtube.com/embed/d2vENdmRRPU&feature=youtu.be"
+            className="videoMod2"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
           <img src={pagina1} alt='pagina 1' className="paginaMod2"/>
           <img src={pagina2} alt='pagina 2' className="paginaMod2"/>
           <img src={pagina3} alt='pagina 3' className="paginaMod2"/>
