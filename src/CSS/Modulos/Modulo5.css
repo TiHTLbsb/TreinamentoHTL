@@ -1,21 +1,26 @@
 .modulo5Page {
   background-color: rgb(228, 228, 228);
-  margin-left: 20%;
   height: auto;
   display: flex;
   justify-content: center;
   margin-top: 6%;
+  width: 98.8vw;
 }
 
 .modulo5Content {
   background-color: white;
-  width: 80%;
+  width: 70%;
+  margin-left: 15%;
   height: auto;
   margin-top: 2%;
   box-shadow: 2px 2px 2px 2px gray;
   font-family: 'Roboto Condensed', sans-serif;
   padding-top: 3%;
   margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .modulo5Title {
